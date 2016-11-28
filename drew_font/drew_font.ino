@@ -52,8 +52,8 @@ void loop() {
      
     }
 
-    const unsigned char letter = alphabet[i];
-    drawBitmap(xPos,yPos, letter, 0);
+//    unsigned char* letter = alphabet[i];
+    drawBitmap(xPos,yPos, alphabet[0], 0);
 
   }
 
